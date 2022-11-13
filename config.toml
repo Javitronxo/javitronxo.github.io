@@ -1,0 +1,223 @@
+# Page settings
+
+baseURL = "https://javitronxo.github.io/"
+languageCode = "en"
+title = "Javier Espinosa - ML Software Engineer"
+theme = "hugo-devresume-theme"
+# googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Javier Espinosa"
+        tagline = "ML Software Engineer"
+        avatar = "Me.png"
+
+    [params.contact]
+        enable = true
+        location = "San Francisco, CA, USA"
+
+        # [[params.contact.list]]
+        # icon = "fas fa-phone-square"
+        # url = "tel:#"
+        # text = "0123 4567 890"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "me@javierespinosa.dev"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://javierespinosa.dev"
+        text = "javierespinosa.dev"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python/Go/Java/Bash"
+        [[params.skills.list.items]]
+        details = "Machine Learning/NLP"
+        [[params.skills.list.items]]
+        details = "Information Retrieval"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes"
+        [[params.skills.list.items]]
+        details = "Linux/Unix systems"
+        [[params.skills.list.items]]
+        details = "Lockpicking"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Ability to work independently"
+        [[params.skills.list.items]]
+        details = "Leadership"
+        [[params.skills.list.items]]
+        details = "Experienced with international teams"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Telecommunication Engineering"
+        university = "Universidad Politécnica de Madrid"
+        dates = "2008 - 2014"
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "Blekinge Institute of Technology"
+        dates = "2013 - 2014"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "French"
+        level = "Elementary"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Judo"
+        [[params.interests.list]]
+        name = "Electronics"
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = true
+        text = "Software Engineer at Apple (AI/ML - Information Intelligence).\n\nPreviously responsible for the international engineering of Siri, other professional experience includes development of web services and applications based on Natural Language Processing.\n\nI received my M.Sc. in Telecommunication Engineering from Technical University of Madrid (ETSIT-UPM), and I carried out my last year studies and Master’s Thesis at Blekinge Institute of Technology (BTH) in Sweden, where I focused my career in Computer Science with emphasis in Machine Learning."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "Nov 2020 - Present"
+        company = "Apple"
+        details = "AI/ML - Information Intelligence."
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Sep 2016 - Nov 2020"
+        company = "Apple"
+        details = "Siri Language Engineer.\n\nResponsible for the international engineering of Siri, from speech recognition to natural language processing, machine learning, big data consumption all the way to speech synthesis.\n\nSpecific responsibilities include:"
+        [[params.experience.list.items]]
+        details = "Developing natural language processing code specific for Spanish."
+        [[params.experience.list.items]]
+        details = "Provide input and suggestions towards innovating new approaches and new product features."
+        [[params.experience.list.items]]
+        details = "Coming up with solutions to complex issues."
+        [[params.experience.list.items]]
+        details = "Automating and integrating workflow from diverse systems."
+        [[params.experience.list.items]]
+        details = "Daily interaction with other teams at Apple working towards the same goal."
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Jul 2015 - Sep 2016"
+        company = "Sngular"
+        details = "(Daedalus became part of Sngular in 2015)\n\nSoftware Engineer of the Data & Analytic Division at Sngular.\n\nDevelopment of Web services and applications based on Natural Language Processing and Business Intelligence in Big Data environments.\n\nProjects:"
+        [[params.experience.list.items]]
+        details = "Web crawling and information retrieval from public pharmaceutical tenders for a major pharmaceutical company."
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Jan 2015 - Jul 2015"
+        company = "Daedalus"
+        details = "Development of Web services and applications based on Natural Language Processing and Business Intelligence in Big Data environments.\n\nProjects:"
+        [[params.experience.list.items]]
+        details = "Development of User Profiling API for Twitter."
+
+    [params.nonvocational]
+        enable = true
+
+        [[params.nonvocational.list]]
+        title = "Judo Instructor"
+        dates = "Sep 2011 - Jun 2013"
+        company = "Randori CFD"
+        details = "In charge of four classes in two different schools with students between 5 and 16 years old."
+
+        [[params.nonvocational.list]]
+        title = "Laboratory Assistant"
+        dates = "Jan 2010 - Jun 2010"
+        company = "Universidad Politécnica de Madrid"
+        details = "Electronics laboratory assistant for first year students."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/javitronxo"
+        title = "javitronxo"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/javierespinosahernandez"
+        title = "Javier Espinosa Hernandez"
+        # [[params.social.list]]
+        # icon = "fab fa-twitter-square"
+        # url = "//twitter.com/username"
+        # title = "@username"
